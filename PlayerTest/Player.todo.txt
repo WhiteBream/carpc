@@ -1,0 +1,14 @@
+- Videoplayer background paint & scaling (play video, next file, maximize)
+- Videoplayer 'no video' notification text after playing video
+- Full screen mode on/off in config
+- Popup enable/disable button
+- Score-autoselectie op basis van rotatie tussen score(min) en -(max)
+v Waarom geen track name bij sommige Pink Floyd tracks?
+- Save old window size and position
+
+
+
+
+
+- Play video dialog & decision tree
+-

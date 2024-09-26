@@ -1,0 +1,223 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+#include "Version.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_THUMBSUP            BITMAP                  "Resources\\thumbs_up.bmp"
+IDB_THUMBSDOWN          BITMAP                  "Resources\\thumbs_down.bmp"
+IDB_CARGO          		BITMAP                  "Resources\\cargo.bmp"
+IDB_DESTUP              BITMAP                  "Resources\\DestUp.bmp"
+IDB_DESTDOWN            BITMAP                  "Resources\\DestDown.bmp"
+IDB_DESTOFF             BITMAP                  "Resources\\DestOff.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION VERSION_FILE
+ PRODUCTVERSION VERSION_PRODUCT
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "White Bream\0"
+            VALUE "FileDescription", "Player.exe\0"
+            VALUE "FileVersion", VERSION_FILESTR
+            VALUE "LegalCopyright", "Copyright © 2000-2008 White Bream.  All rights reserved.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CARGO Media Player\0"
+            VALUE "ProductVersion", VERSION_PRODUCTSTR
+            VALUE "SpecialBuild", "Beta\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PLR                 ICON                    "Resources\\plr.ico"
+IDI_LST                 ICON                    "Resources\\lst.ico"
+IDI_SRT                 ICON                    "Resources\\sort.ico"
+IDI_LIB                 ICON                    "Resources\\mlib.ico"
+IDI_RAD                 ICON                    "Resources\\radio.ico"
+IDI_VID                 ICON                    "Resources\\vid.ico"
+IDI_MXR                 ICON                    "Resources\\mxr.ico"
+IDI_CFG                 ICON                    "Resources\\cfg.ico"
+IDI_SPK_ON              ICON                    "Resources\\spk_on.ico"
+IDI_SPK_OFF             ICON                    "Resources\\spk_off.ico"
+IDI_OSK                 ICON                    "Resources\\osk.ico"
+IDI_PREV                ICON                    "Resources\\prev.ico"
+IDI_PLAY                ICON                    "Resources\\play.ico"
+IDI_STOP                ICON                    "Resources\\stop.ico"
+IDI_PAUSE               ICON                    "Resources\\pause.ico"
+IDI_NEXT                ICON                    "Resources\\next.ico"
+IDI_PLAYNOW             ICON                    "Resources\\playnow.ico"
+IDI_PLAYNEXT            ICON                    "Resources\\playnext.ico"
+IDI_PLAYQUEUE           ICON                    "Resources\\playqueue.ico"
+IDI_PLAYALL             ICON                    "Resources\\playall.ico"
+IDI_ARTIST              ICON                    "Resources\\artist.ico"
+IDI_EXIT                ICON                    "Resources\\exit.ico"
+IDI_DEL                 ICON                    "Resources\\del.ico"
+IDI_LISTALBUM           ICON                    "Resources\\listalbum.ico"
+IDI_LISTTRACK           ICON                    "Resources\\listtrack.ico"
+IDI_STOPPED             ICON                    "resources\\stopped.ico"
+IDI_PLAYING             ICON                    "resources\\playing.ico"
+IDI_PAUSED              ICON                    "resources\\paused.ico"
+IDI_RDS                 ICON                    "resources\\rds.ico"
+IDI_RDSSM               ICON                    "resources\\rds_sm.ico"
+IDI_THUMBSUP            ICON                    "resources\\thumbs_up.ico"
+IDI_THUMBSDOWN          ICON                    "resources\\thumbs_down.ico"
+IDI_EDIT                ICON                    "resources\\edit_note.ico"
+IDI_INFO                ICON                    "resources\\info.ico"
+IDI_REMOVE              ICON                    "Resources\\recycle.ico"
+IDI_ADDFOLDER           ICON                    "resources\\findfolder.ico"
+IDI_DELFOLDER           ICON                    "resources\\del.ico"
+IDI_UPDATE              ICON                    "resources\\update.ico"
+IDI_FILE                ICON                    "resources\\copyfile.ico"
+IDI_REPEAT              ICON                    "resources\\repeat.ico"
+IDI_LEFT                ICON                    "resources\\left.ico"
+IDI_RIGHT               ICON                    "resources\\right.ico"
+IDI_DELALL              ICON                    "resources\\delall.ico"
+IDI_SCANUP              ICON                    "resources\\scanup.ico"
+IDI_SCANDOWN            ICON                    "resources\\scandown.ico"
+IDI_TUNEUP              ICON                    "resources\\play.ico"
+IDI_TUNEDOWN            ICON                    "resources\\fmdown.ico"
+IDI_UP                  ICON                    "resources\\up.ico"
+IDI_DOWN                ICON                    "resources\\down.ico"
+IDI_RSSI0               ICON                    "resources\\rssi0.ico"
+IDI_RSSI1               ICON                    "resources\\rssi1.ico"
+IDI_RSSI2               ICON                    "resources\\rssi2.ico"
+IDI_RSSI3               ICON                    "resources\\rssi3.ico"
+IDI_RSSI4               ICON                    "resources\\rssi4.ico"
+IDI_RSSI5               ICON                    "resources\\rssi5.ico"
+IDI_RECORD              ICON                    "resources\\record.ico"
+IDI_TAON              	ICON                    "resources\\ta_active.ico"
+IDI_ENABLE            	ICON                    "resources\\lamp_on.ico"
+IDI_DISABLE            	ICON                    "resources\\lamp_off.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+	IDC_PLAY                ""
+	IDC_NEXT                ""
+	IDC_PREV                ""
+	IDC_STOP                ""
+	IDC_PAUSE               ""
+	IDC_SHUFFLE             ""
+	IDC_XFADE               ""
+	IDC_REPEAT              ""
+	IDC_PLAYNOW             ""
+	IDC_PLAYNEXT            ""
+	IDC_REMOVE              ""
+	IDC_SEEK                ""
+	IDC_TICKER              ""
+	IDC_SUBTICKER           ""
+	IDC_COMINGNEXT          ""
+	IDC_STATUS              ""
+	IDC_HIDE                ""
+	IDC_EDIT                ""
+	IDC_REMOVEALL           ""
+	IDC_POINTINC            "Give the current song extra points"
+	IDC_POINTDEC            "Take point from the current song"
+	IDC_EDITCURR            ""
+	IDC_DELETE              ""
+	IDC_INFO                "Tap a button for a short explanation of its function"
+	IDC_RATING              ""
+	IDC_SPECTRUM            ""
+	IDC_RDSTA               ""
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

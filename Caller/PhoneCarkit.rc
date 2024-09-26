@@ -1,0 +1,102 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DESTUP              BITMAP  DISCARDABLE     "Resources\\DestUp.bmp"
+IDB_DESTDOWN            BITMAP  DISCARDABLE     "Resources\\DestDown.bmp"
+IDB_DESTOFF             BITMAP  DISCARDABLE     "Resources\\DestOff.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PLR                 ICON    DISCARDABLE     "Resources\\phone.ico"
+IDI_LST                 ICON    DISCARDABLE     "Resources\\lst.ico"
+IDI_SRT                 ICON    DISCARDABLE     "Resources\\sort.ico"
+IDI_LIB                 ICON    DISCARDABLE     "Resources\\mlib.ico"
+IDI_VID                 ICON    DISCARDABLE     "Resources\\vid.ico"
+IDI_MXR                 ICON    DISCARDABLE     "Resources\\mxr.ico"
+IDI_CFG                 ICON    DISCARDABLE     "Resources\\cfg.ico"
+IDI_SPK_ON              ICON    DISCARDABLE     "Resources\\spk_on.ico"
+IDI_SPK_OFF             ICON    DISCARDABLE     "Resources\\spk_off.ico"
+IDI_OSK                 ICON    DISCARDABLE     "Resources\\osk.ico"
+IDI_PAUSE               ICON    DISCARDABLE     "Resources\\pause.ico"
+IDI_ARTIST              ICON    DISCARDABLE     "Resources\\artist.ico"
+IDI_EXIT                ICON    DISCARDABLE     "Resources\\exit.ico"
+IDI_DEL                 ICON    DISCARDABLE     "Resources\\del.ico"
+IDI_CTIN                ICON    DISCARDABLE     "resources\\ct_in.ico"
+IDI_CTOUT               ICON    DISCARDABLE     "resources\\ct_out.ico"
+IDI_CTERR               ICON    DISCARDABLE     "resources\\ct_err.ico"
+IDI_NTCELL              ICON    DISCARDABLE     "resources\\nt_cell.ico"
+IDI_NTWORK              ICON    DISCARDABLE     "resources\\nt_work.ico"
+IDI_NTHOME              ICON    DISCARDABLE     "resources\\nt_home.ico"
+IDI_NTFAX               ICON    DISCARDABLE     "resources\\nt_fax.ico"
+IDI_NTDIV               ICON    DISCARDABLE     "resources\\nt_div.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

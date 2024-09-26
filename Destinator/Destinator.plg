@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DestButtons - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Destinator.res" /d "_DEBUG" "C:\Henk\WhiteBream\Projects\S204\Software\Destinator\Destinator.rc"" 
+Creating temporary file "C:\DOCUME~1\Henk\LOCALS~1\Temp\RSP1A7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\PROGRA~1\MIC977~1\Include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/Destinator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Henk\WhiteBream\Projects\S204\Software\Destinator\Button.cpp"
+"C:\Henk\WhiteBream\Projects\S204\Software\Destinator\Destinator.cpp"
+"C:\Henk\WhiteBream\Projects\S204\Software\Destinator\Listbox.cpp"
+"C:\Henk\WhiteBream\Projects\S204\Software\Destinator\Slider.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Henk\LOCALS~1\Temp\RSP1A7.tmp" 
+Creating temporary file "C:\DOCUME~1\Henk\LOCALS~1\Temp\RSP1A8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\PROGRA~1\MIC977~1\Include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/Destinator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Henk\WhiteBream\Projects\S204\Software\Destinator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Henk\LOCALS~1\Temp\RSP1A8.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\Destinator.lib"  .\Debug\Button.obj .\Debug\Destinator.obj .\Debug\Listbox.obj .\Debug\Slider.obj .\Debug\StdAfx.obj .\Debug\Destinator.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Button.cpp
+Destinator.cpp
+Listbox.cpp
+Slider.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+Destinator.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
